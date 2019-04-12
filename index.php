@@ -84,11 +84,12 @@
 	<input type="number" name="number" value="#a"><br/><br/><br/>
 	<input type="url" name="urlType" value="#a"><br/><br/><br/>
 
-		<!-- unrecognized type-->
+		<!-- Unrecognized type-->
 	<input type="anyvalue" name="flyingType" value="as"><br/><br/><br/> 
 </p>
 
 <button>Submit</button>
+
 <!-- HTML 5 ONLY -->
 <?php 
 $oldValue = isset($_POST['value']) ? $_POST['value'] :'';
